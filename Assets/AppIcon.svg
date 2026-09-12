@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="bg" x1="140" y1="90" x2="850" y2="940" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#172028"/>
+      <stop offset="1" stop-color="#080b0d"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="180" y1="130" x2="820" y2="900" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#9dffad" stop-opacity=".8"/>
+      <stop offset=".45" stop-color="#70ff88" stop-opacity=".18"/>
+      <stop offset="1" stop-color="#70ff88" stop-opacity=".04"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="170%">
+      <feDropShadow dx="0" dy="34" stdDeviation="40" flood-color="#000" flood-opacity=".55"/>
+    </filter>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="16" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect x="72" y="62" width="880" height="880" rx="210" fill="url(#bg)" filter="url(#shadow)"/>
+  <rect x="73.5" y="63.5" width="877" height="877" rx="208.5" fill="none" stroke="url(#edge)" stroke-width="3"/>
+  <path d="M221 254c0-42 34-76 76-76h430c42 0 76 34 76 76v516c0 42-34 76-76 76H297c-42 0-76-34-76-76V254Z" fill="#06090a" stroke="#ffffff" stroke-opacity=".1" stroke-width="5"/>
+  <path d="M221 254c0-42 34-76 76-76h430c42 0 76 34 76 76v49H221v-49Z" fill="#1b2429"/>
+  <circle cx="291" cy="241" r="13" fill="#ff6b62"/>
+  <circle cx="335" cy="241" r="13" fill="#f4bf4f"/>
+  <circle cx="379" cy="241" r="13" fill="#63c956"/>
+  <g fill="#7dff91" font-family="Menlo, Monaco, monospace" font-weight="700" text-anchor="middle" filter="url(#glow)">
+    <text x="512" y="460" font-size="85">/\_/\</text>
+    <text x="512" y="565" font-size="85">( o.o )</text>
+    <text x="512" y="670" font-size="85">&gt; ^ &lt;</text>
+  </g>
+  <text x="294" y="780" fill="#7dff91" fill-opacity=".78" font-family="Menlo, Monaco, monospace" font-size="46" font-weight="700">&gt;_</text>
+  <rect x="381" y="743" width="228" height="50" rx="8" fill="#ffffff" fill-opacity=".72"/>
+</svg>
