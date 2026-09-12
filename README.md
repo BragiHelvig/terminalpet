@@ -13,7 +13,7 @@ Pick a pet, turn an image into ASCII, dial in the colors and effects, and let a 
 
 ## Video
 
-[![Watch Terminal Pet on YouTube](https://img.youtube.com/vi/erN2ZfQj5cM/hqdefault.jpg)](https://www.youtube.com/watch?v=erN2ZfQj5cM)
+[![Terminal Pet's Pet Studio — click to watch on YouTube](docs/screenshots/pet-studio.png)](https://www.youtube.com/watch?v=erN2ZfQj5cM)
 
 [Watch on YouTube](https://www.youtube.com/watch?v=erN2ZfQj5cM).
 
@@ -41,6 +41,14 @@ Pick a pet, turn an image into ASCII, dial in the colors and effects, and let a 
 - Supports custom lines and live tokens: `{user}`, `{pet}`, `{host}`, and `{cwd}`.
 - Adds live clock, date, user/host, directory, macOS version, architecture, shell, battery, uptime, and git-branch modules.
 - Controls frequency, local/SSH scope, IDE-terminal exclusion, quiet hours, `NO_COLOR`, window titles, and the terminal bell.
+
+![Scene Builder with color controls, presets, live modules, and terminal preview](docs/screenshots/scene-builder.png)
+
+### A voice for your terminal
+
+Choose the lines your pet can say, toggle an entire mood, or write your own with live tokens.
+
+![Openers with custom text, live tokens, and selectable dry and chaotic greetings](docs/screenshots/openers.png)
 
 ## Prompt Lab
 
